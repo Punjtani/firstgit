@@ -1,0 +1,153 @@
+
+/* Icon list box less */
+
+/*Parallex*/
+
+.parallax-out {
+    width:100%;
+    float:left;
+}
+.parallax-in {
+    min-height:auto;
+}
+#second {
+   
+    min-height: 507px;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0;
+    border-top: 4px solid #cbcbcb;
+    border-bottom: 4px solid darken(@main-theme-color, 8%);
+    
+    background-size:cover;
+    .bg {
+        background: url(../images/iconlist.png) no-repeat bottom;
+        height: 507px;
+        margin: 0px auto 0 auto;
+        padding: 0;
+        position: absolute;
+        z-index: 999999;
+        background-size: 100%;
+    }
+}
+.story {
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+.container .float-left, .container .float-right{
+padding-top: 30px;
+position: relative;
+padding-bottom: 0px;
+min-height: 507px;
+		
+}
+.float-right{
+	float: right;
+	margin: 0 0px 0 0;
+}
+
+.iconlist-wrap {
+    li {
+        float:left;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .subtitle {
+        color: #686c6f;
+        background: none;
+        text-align: left;
+        padding: 28px 0px 32px 0;
+		margin-bottom: 0px;
+    }
+    li:hover {
+        .iconlist-content {
+            
+            .transition (.5s);
+        }
+        
+        .icon-list-arrow {
+            display:block;
+            height:13px;
+            width:13px;
+            float:left;
+            position: absolute;
+            margin: 39px 0 0 -26px;
+            background:url(../images/icon-list-arrow.png) no-repeat 0px 0px;
+            .transition (.5s);
+        }
+    }
+}
+
+.icon-list-icons {
+    height:68px;
+    width:68px;
+    border-radius:100%;
+    background:@icon-listbox-bg-color;
+    border:@border-icon-listbox;
+    font-size:25px;
+    line-height:68px;
+    text-align:center;
+    color:@icon-box-icon-color;
+    margin: 10px 0 0 0;
+    .transition (.5s);
+    z-index:9;
+	float:left;
+    position:relative;
+}
+.iconlist-content {
+    width: 83%;
+    margin: 0px 0 0px 13.3%;
+    height: 100%;
+    font-family: @base-font;
+    .transition (.5s);
+    padding: 5px 15px;
+}
+
+
+
+.iconlist-text {
+    font-size:14px;
+    color:#6d6d6d;
+    line-height:1.4em;
+    font-family: @base-font;
+}
+.icon-list-connector {
+    left: 2.9em;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-color: #107fc9;
+    height: 100%;
+    position: absolute;
+    top: 4em;
+    z-index: 1;
+}
+.icon-list-connector2 {
+    width: 8px;
+    height: 33px;
+    z-index: 1;
+    position: absolute;
+    float: left;
+    left: 7.3%;
+    top: 321px;
+    background: url(../images/icon-list-connect.png) no-repeat 0px 0px;
+}
+.icon-list-arrow {
+    display:none;
+    .transition (.5s);
+}
+
+
+.iconlist-title {
+font-size: 21px;
+color: @main-theme-color;
+line-height: 1.3em;
+font-family: 'Noto Sans',sans-serif;
+padding-bottom: 6px;
+}
+
+.iconlist-mid-title{
+font-weight:600; 
+color:@main-theme-color;
+}

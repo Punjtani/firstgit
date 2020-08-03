@@ -1,0 +1,123 @@
+.login-page-wrap{
+    background: url(../images/bg-3.jpeg) top center no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.form-box{
+    /* background-color: #181d25; */
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+
+}
+.form-title{
+    text-align:center;
+    color:#fff;
+    background-color: transparent;
+    padding: 46px 20px;
+}
+.contact2-textbox{
+    border-radius: 5px;
+}
+.icon-mail{
+    border-radius: 5px;
+}
+.form-title{
+    /* text-align:center;
+    color:#fff;
+    background-color:#181d25; */
+}
+.content-footer-space {
+    padding-bottom: 45px !important;
+}
+.login-btn{
+    padding: 1px 6px !important;
+}
+.mb-4{
+    margin-bottom: 4rem;
+}
+.fa-whatsapp{
+    font-weight: bolder;
+}
+/* .banner-img{
+    height: 100%;
+    object-fit: cover;
+} */
+/* ul.slider-img li{
+    width: 100%;
+    height: 100vh;
+} */
+.banner-height{
+    /* width: 100%;
+    height: 100vh; */
+}
+/* .banner{
+    height:80vh !important;
+    object-fit: cover;
+} */
+.txt_bg3{
+	    background: linear-gradient(150deg,#dcbab0 15%,#7dd494 68%,#70d69e 63%); 
+	    /* background: linear-gradient(150deg,#c6bef1 15%,#7ecbda 70%,#a3f7c6 94%);*/
+     /* background-image: url(../images/bc-back1.jpg); */
+     /* background-image: url(../images/w-2.jpeg); */
+    /* background-image: url(../images/16.jpeg); */
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size:100%;
+
+}
+
+ul.slider-img li img{
+    width:100%;
+    height: auto;
+    object-fit: contain;
+
+}
+.v-height{
+    /* height:100vh */
+}
+.tp-caption{
+    left:10px !important;
+}
+.white-text{
+    color:#fff;
+}
+.v-text{
+    font-size: 16px;
+    color: #040404;
+}
+.iconlist-title{
+ color: #0c0c0c;
+ font-size: 21px;
+ font-weight: bold;
+}
+.x{
+
+    /*font-family: -webkit-body;*/
+
+    font-family: metal mania;
+    font-size: 48px;
+
+}
+.logo_new {
+    /* margin-top: 10px;
+    height: 41px;
+    width: 150px;
+    float: left;
+
+    background-image: url("images/Asset 2.png"); */
+
+}
+.txt_bg1 {
+	    background: linear-gradient(150deg,#c6bef1 15%,#7ecbda 70%,#b4bbc2 94%);
+    /* background: linear-gradient(150deg,#c6bef1 15%,#7ecbda 70%,#a3f7c6 94%); */
+    background-position: inherit;
+    /* background: #dbdcdc; */
+    width: auto;
+}
+@media (min-width: 992px){
+    .navbar{
+        line-height: 65px !important;
+    }
+}

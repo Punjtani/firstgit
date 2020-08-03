@@ -1,0 +1,64 @@
+/*Mixims*/
+
+.transition (@transition : .5s) {
+	-webkit-transition: @transition;  
+	-moz-transition:    @transition;
+	-ms-transition:     @transition; 
+	-o-transition:      @transition;  
+	transition:      @transition;  
+}
+
+.border-radius (@radius) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+
+.rotate (@deg) {
+	-webkit-transform: rotate(@deg);
+	-moz-transform: 	 rotate(@deg);
+	-ms-transform: 		 rotate(@deg);
+	-o-transform: 		 rotate(@deg);
+	transform: 		 rotate(@deg);
+	-webkit-transform-origin: center;
+	-moz-transform-origin: center;
+	-ms-transform-origin: center;
+	-o-transform-origin: center;
+	transform-origin: center;
+}
+
+.padding(@pad){
+	padding:@pad;
+}
+
+.display(@disp){
+	display:@disp !important;
+}
+
+.visibility(@visibility){
+	visibility: @visibility;
+}
+
+/*Icon-box*/
+
+/*Icon Gradiant*/
+
+.gradient-icon-box (@startColor: #eee, @endColor: white) {
+	background-color: @startColor;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@startColor), color-stop(50%,@startColor), color-stop(51%,@endColor), color-stop(100%,@endColor));
+	background: -webkit-linear-gradient(top, @startColor 0%, @startColor 50%, @endColor 51%, @endColor 100%);
+	background: -moz-linear-gradient(top, @startColor 0%, @startColor 50%, @endColor 51%, @endColor 100%);
+	background: -ms-linear-gradient(top, @startColor 0%, @startColor 50%, @endColor 51%, @endColor 100%);
+	background: -o-linear-gradient(top, @startColor 0%, @startColor 50%, @endColor 51%, @endColor 100%);
+	background: linear-gradient(top, @startColor 0%, @startColor 50%, @endColor 51%, @endColor 100%);
+}
+
+
+
+
+
+

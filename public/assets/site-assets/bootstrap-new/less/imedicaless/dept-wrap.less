@@ -1,0 +1,211 @@
+.department-wrap {
+    height:auto;
+    padding-bottom:15px;
+    padding-top:15px;
+    .subtitle {
+        margin-bottom: 40px;
+    }
+}
+.ui-widget {
+    font-size: 1.1em;
+    float:left;
+    width: 100%;
+}
+.ui-accordion {
+    .ui-accordion-content {
+        padding: 0;
+        border-top: 0;
+        overflow: auto;
+        width: 100%;
+    }
+    .ui-accordion-header {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        
+        line-height: 46px;
+        min-height: 0;
+		
+        .ui-accordion-header-icon {
+            position: absolute;
+            left: .5em;
+            top: 50%;
+            margin-top: -8px;
+            display:none;
+        }
+    }
+    .ui-accordion-icons {
+        padding-left: 0em;
+        .ui-accordion-icons {
+            padding-left: 0;
+        }
+    }
+}
+.ui-widget-content {
+    background: #fff;
+}
+.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active {
+    background: @main-theme-color;
+    color: #fff;
+}
+.vspacer {
+    float:left;
+    width:100%;
+    height:20px;
+}
+.dept-author-img-desk {
+    display:block;
+    margin:15px 0 15px 0;
+	width:170px;
+    .border-radius(0px);
+    padding: 0px;
+}
+
+.dept-content {
+    padding-top: 15px;
+    p {
+        font-size: 13px;
+        color: @para-text-color;
+        line-height: 1.6em;
+        padding-bottom: 15px;
+    }
+}
+.ui-accordion-header-active {
+    .dept-icon {
+        height: 44px;
+        width: 46px;
+        line-height: 46px;
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+        
+        background: @main-theme-color;
+    }
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid #FFF;
+    background: @main-theme-color url(../images/ov-minus-collapse.png) no-repeat right center !important;
+}
+.dept-icon {
+    
+    width: 46px;
+    line-height: 1.9em;
+    text-align: center;
+    font-size: 24px;
+    color: @main-theme-color;
+    
+    
+	float:left;
+}
+.dept-title {
+    
+    line-height: 1.5em;
+    font-size: 15px;
+    color: @title-text-color;
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.ui-accordion .ui-accordion-header {
+display: block;
+cursor: pointer;
+position: relative;
+line-height: 3em;
+font-size: 15px;
+padding-right: 68px;
+}
+
+.dep-txt{
+	width: 90%;
+	border-left: 1px solid #e0e1e2;
+	line-height: 1.3em;
+	display: block;
+	margin-left: 46px;
+	padding: 13px 10px 13px 15px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{ color: #6d6d6d !important;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{ color: #fff !important;}
+
+.ui-widget h3:first-child{ border-radius: 0px 0px 0 0;}
+.ui-widget h3:first-child i{ border-radius: 0px 0 0 0;}
+.ui-widget h3:first-child.ui-state-active{ border-radius: 0px 0px 0 0; border-top: none; }
+
+.ui-widget h3.last-child-ac{ border-radius:0 0 0px 0px;}
+.ui-widget h3.last-child-ac i{ border-radius:0 0 0px 0;}
+
+.ui-widget h3.last-child-ac.ui-state-active{ border-radius:0 0 0px 0px;}
+.ui-widget h3.last-child-ac.ui-state-active i{ border-radius:0 0 0px 0;}
+
+.dept-details-butt{
+    display: block;
+    padding: 6px 20px;
+    color: @main-theme-color;
+    border-radius:0px;
+    border: 1px solid @main-theme-color;
+    margin-right: 15px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    transition:.2s;
+}
+
+.dept-details-butt:hover{ color: #fff; background-color: @main-theme-color; transition:.5s;}
+/*.dept-apponit-butt:hover{ color: @main-theme-color; background-color: #fff; transition:.5s; border:1px solid @main-theme-color;}*/
+
+.purchase-strip-blue.dept-apponit-butt .btn-4a:hover:before {
+left: 83%;
+}
+
+.purchase-strip-blue.dept-apponit-butt .btn-4:hover {
+background: @main-theme-color;
+padding: 6px 30px 6px 10px;
+
+}
+
+.purchase-strip-blue.dept-apponit-butt .btn {
+border: 1px solid @main-theme-color;
+font-family: inherit;
+font-size: 15px;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+text-transform: initial;
+outline: none;
+position: relative;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+text-shadow: none;
+border-radius: 0px;
+background: @main-theme-color;
+padding: 6px 20px;
+margin: 0px;
+line-height: 1.2em;
+height: inherit;
+}
+
+.purchase-strip-blue.dept-apponit-butt .color-4{ padding: 0px; margin: 0px; float: left;}
+
+.purchase-strip-blue.dept-apponit-butt .btn-4:before {
+position: absolute;
+height: 100%;
+font-size: 90%;
+line-height: 32px;
+color: #fff;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+}
+
+.purchase-strip-blue.dept-apponit-butt .btn:after {
+content: '';
+position: absolute;
+z-index: -1;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+}
