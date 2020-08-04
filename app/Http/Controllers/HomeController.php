@@ -15,7 +15,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+//        $this->middleware('auth');
     }
 
     /**
@@ -30,8 +30,7 @@ class HomeController extends Controller
     }
     public function home()
     {
-        $categories = Category::all();
-        $slider = Slider::all();
-        return view('home.frontend.index',compact('slider','categories'));
+        return view('home');
+
     }
 }
