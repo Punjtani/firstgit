@@ -190,8 +190,8 @@ class DashboardController extends Controller
     {
         return view('site.mental_health_volunteers');
     }
-   
-        
+
+
     public function site()
     {
         // dd('here');
@@ -200,7 +200,7 @@ class DashboardController extends Controller
         $chose = Slider::where('area',3)->first();
         $misison = Slider::where('area',4)->first();
         $path  =  __DIR__;
-        $path  = substr($path ,0,26); 
+        $path  = substr($path ,0,26);
         $path =  $path .'panel/public/';
 
         // str_replace("\","Peter",$path);
