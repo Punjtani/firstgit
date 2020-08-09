@@ -42,12 +42,9 @@ Route::group(['prefix' => 'authentication', 'namespace' => 'Authentication'], fu
     Route::get('companies', 'DdlController@companies');
     Route::get('students', 'DdlController@students');
 
-
 });
 
 Route::get('/logout', 'Auth\LoginController@logout');
 
 
-Route::get('/home', 'HomeController@index')->name('home');
-//Auth::routes();
-
+Route::get('/', 'HomeController@index')->name('home');
