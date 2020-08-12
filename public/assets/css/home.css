@@ -1,0 +1,62 @@
+.banner {
+  margin-top: -8px;
+}
+
+.university_listing_logo {
+  width: 89px;
+  height: 89px;
+}
+
+.ranking_area {
+  border-left: 1px solid rgba(0, 0, 0, .125);
+}
+
+.ranking_factors_title {
+  border-left: 1px solid rgba(0, 0, 0, .125);
+}
+
+.ranking_factors_title:first-child {
+  border-left: 0;
+}
+
+.factor_title, .factor_value {
+  font-size: 80%;
+  margin-bottom: 0;
+}
+
+.factor_arrows > i {
+  margin-top: -5px;
+  margin-bottom: -5px;
+  font-size: 80%;
+}
+
+.listing_item:last-child {
+  margin-bottom: 0 !important;
+}
+
+.listings_checkbox {
+  /* TODO: empty class */
+}
+
+.ranking_factors_value {
+  border-top: 1px solid rgba(0, 0, 0, .125);
+  border-left: 1px solid rgba(0, 0, 0, .125);
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.ranking_factors_value:last-child {
+  border-right: 1px solid rgba(0, 0, 0, .125);
+}
+
+.university_name {
+  font-size: 150%;
+}
+
+.university_listing_address {
+  font-size: 110%;
+}
+
+.listing_graph_area {
+  min-width: 300px;
+  border: 1px solid;
+}

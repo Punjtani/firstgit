@@ -1,3 +1,6 @@
 .env
-
 .idea
+package-lock.json
+composer.phar
+node_modules/
+vendor/
