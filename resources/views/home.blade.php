@@ -101,6 +101,678 @@
       <div class="card p-2 card_container">
         <div class="tab-content" id="listingsTabsContent">
           <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+          <div class="card listing_item mb-2 p-2 d-flex flex-row">
+              <div class="align-self-center pr-4 pl-3">
+                <img class="university_listing_logo" src={{ asset("assets/img/placeholder.jpeg") }} />
+              </div>
+              <div class="ranking_area pl-2 d-flex flex-fill flex-column">
+                <div class="d-flex mb-2 mt-0">
+                  <h1 class="university_name flex-fill">University of Oxford</h1>
+                  <div class="d-flex justify-content-between">
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <h3 class="university_listing_address flex-fill"><i class="fas fa-map-marker-alt"></i> Oxford OX1 2JD, United Kingdom</h3>
+                  <span class="badge badge-pill badge-secondary align-self-start">North America (1)</span>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="p-1 listing_graph_area flex-fill mr-2">
+                    listing_graph_area
+                  </div>
+                  <button class="btn btn-secondary mr-2">Compare</button>
+                  <button class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
+            <div class="card listing_item mb-2 p-2 d-flex flex-row">
+              <div class="align-self-center pr-4 pl-3">
+                <img class="university_listing_logo" src={{ asset("assets/img/placeholder.jpeg") }} />
+              </div>
+              <div class="ranking_area pl-2 d-flex flex-fill flex-column">
+                <div class="d-flex mb-2 mt-0">
+                  <h1 class="university_name flex-fill">University of Oxford</h1>
+                  <div class="d-flex justify-content-between">
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <h3 class="university_listing_address flex-fill"><i class="fas fa-map-marker-alt"></i> Oxford OX1 2JD, United Kingdom</h3>
+                  <span class="badge badge-pill badge-secondary align-self-start">North America (1)</span>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="p-1 listing_graph_area flex-fill mr-2">
+                    listing_graph_area
+                  </div>
+                  <button class="btn btn-secondary mr-2">Compare</button>
+                  <button class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
+            <div class="card listing_item mb-2 p-2 d-flex flex-row">
+              <div class="align-self-center pr-4 pl-3">
+                <img class="university_listing_logo" src={{ asset("assets/img/placeholder.jpeg") }} />
+              </div>
+              <div class="ranking_area pl-2 d-flex flex-fill flex-column">
+                <div class="d-flex mb-2 mt-0">
+                  <h1 class="university_name flex-fill">University of Oxford</h1>
+                  <div class="d-flex justify-content-between">
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <h3 class="university_listing_address flex-fill"><i class="fas fa-map-marker-alt"></i> Oxford OX1 2JD, United Kingdom</h3>
+                  <span class="badge badge-pill badge-secondary align-self-start">North America (1)</span>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="p-1 listing_graph_area flex-fill mr-2">
+                    listing_graph_area
+                  </div>
+                  <button class="btn btn-secondary mr-2">Compare</button>
+                  <button class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
+            <div class="card listing_item mb-2 p-2 d-flex flex-row">
+              <div class="align-self-center pr-4 pl-3">
+                <img class="university_listing_logo" src={{ asset("assets/img/placeholder.jpeg") }} />
+              </div>
+              <div class="ranking_area pl-2 d-flex flex-fill flex-column">
+                <div class="d-flex mb-2 mt-0">
+                  <h1 class="university_name flex-fill">University of Oxford</h1>
+                  <div class="d-flex justify-content-between">
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <h3 class="university_listing_address flex-fill"><i class="fas fa-map-marker-alt"></i> Oxford OX1 2JD, United Kingdom</h3>
+                  <span class="badge badge-pill badge-secondary align-self-start">North America (1)</span>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="p-1 listing_graph_area flex-fill mr-2">
+                    listing_graph_area
+                  </div>
+                  <button class="btn btn-secondary mr-2">Compare</button>
+                  <button class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
+            <div class="card listing_item mb-2 p-2 d-flex flex-row">
+              <div class="align-self-center pr-4 pl-3">
+                <img class="university_listing_logo" src={{ asset("assets/img/placeholder.jpeg") }} />
+              </div>
+              <div class="ranking_area pl-2 d-flex flex-fill flex-column">
+                <div class="d-flex mb-2 mt-0">
+                  <h1 class="university_name flex-fill">University of Oxford</h1>
+                  <div class="d-flex justify-content-between">
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <h3 class="university_listing_address flex-fill"><i class="fas fa-map-marker-alt"></i> Oxford OX1 2JD, United Kingdom</h3>
+                  <span class="badge badge-pill badge-secondary align-self-start">North America (1)</span>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="p-1 listing_graph_area flex-fill mr-2">
+                    listing_graph_area
+                  </div>
+                  <button class="btn btn-secondary mr-2">Compare</button>
+                  <button class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
+            <div class="card listing_item mb-2 p-2 d-flex flex-row">
+              <div class="align-self-center pr-4 pl-3">
+                <img class="university_listing_logo" src={{ asset("assets/img/placeholder.jpeg") }} />
+              </div>
+              <div class="ranking_area pl-2 d-flex flex-fill flex-column">
+                <div class="d-flex mb-2 mt-0">
+                  <h1 class="university_name flex-fill">University of Oxford</h1>
+                  <div class="d-flex justify-content-between">
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <h3 class="university_listing_address flex-fill"><i class="fas fa-map-marker-alt"></i> Oxford OX1 2JD, United Kingdom</h3>
+                  <span class="badge badge-pill badge-secondary align-self-start">North America (1)</span>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="p-1 listing_graph_area flex-fill mr-2">
+                    listing_graph_area
+                  </div>
+                  <button class="btn btn-secondary mr-2">Compare</button>
+                  <button class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
+            <div class="card listing_item mb-2 p-2 d-flex flex-row">
+              <div class="align-self-center pr-4 pl-3">
+                <img class="university_listing_logo" src={{ asset("assets/img/placeholder.jpeg") }} />
+              </div>
+              <div class="ranking_area pl-2 d-flex flex-fill flex-column">
+                <div class="d-flex mb-2 mt-0">
+                  <h1 class="university_name flex-fill">University of Oxford</h1>
+                  <div class="d-flex justify-content-between">
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <h3 class="university_listing_address flex-fill"><i class="fas fa-map-marker-alt"></i> Oxford OX1 2JD, United Kingdom</h3>
+                  <span class="badge badge-pill badge-secondary align-self-start">North America (1)</span>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="p-1 listing_graph_area flex-fill mr-2">
+                    listing_graph_area
+                  </div>
+                  <button class="btn btn-secondary mr-2">Compare</button>
+                  <button class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
+            <div class="card listing_item mb-2 p-2 d-flex flex-row">
+              <div class="align-self-center pr-4 pl-3">
+                <img class="university_listing_logo" src={{ asset("assets/img/placeholder.jpeg") }} />
+              </div>
+              <div class="ranking_area pl-2 d-flex flex-fill flex-column">
+                <div class="d-flex mb-2 mt-0">
+                  <h1 class="university_name flex-fill">University of Oxford</h1>
+                  <div class="d-flex justify-content-between">
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <h3 class="university_listing_address flex-fill"><i class="fas fa-map-marker-alt"></i> Oxford OX1 2JD, United Kingdom</h3>
+                  <span class="badge badge-pill badge-secondary align-self-start">North America (1)</span>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="p-1 listing_graph_area flex-fill mr-2">
+                    listing_graph_area
+                  </div>
+                  <button class="btn btn-secondary mr-2">Compare</button>
+                  <button class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
+            <div class="card listing_item mb-2 p-2 d-flex flex-row">
+              <div class="align-self-center pr-4 pl-3">
+                <img class="university_listing_logo" src={{ asset("assets/img/placeholder.jpeg") }} />
+              </div>
+              <div class="ranking_area pl-2 d-flex flex-fill flex-column">
+                <div class="d-flex mb-2 mt-0">
+                  <h1 class="university_name flex-fill">University of Oxford</h1>
+                  <div class="d-flex justify-content-between">
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <h3 class="university_listing_address flex-fill"><i class="fas fa-map-marker-alt"></i> Oxford OX1 2JD, United Kingdom</h3>
+                  <span class="badge badge-pill badge-secondary align-self-start">North America (1)</span>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="p-1 listing_graph_area flex-fill mr-2">
+                    listing_graph_area
+                  </div>
+                  <button class="btn btn-secondary mr-2">Compare</button>
+                  <button class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
+            <div class="card listing_item mb-2 p-2 d-flex flex-row">
+              <div class="align-self-center pr-4 pl-3">
+                <img class="university_listing_logo" src={{ asset("assets/img/placeholder.jpeg") }} />
+              </div>
+              <div class="ranking_area pl-2 d-flex flex-fill flex-column">
+                <div class="d-flex mb-2 mt-0">
+                  <h1 class="university_name flex-fill">University of Oxford</h1>
+                  <div class="d-flex justify-content-between">
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <h3 class="university_listing_address flex-fill"><i class="fas fa-map-marker-alt"></i> Oxford OX1 2JD, United Kingdom</h3>
+                  <span class="badge badge-pill badge-secondary align-self-start">North America (1)</span>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="p-1 listing_graph_area flex-fill mr-2">
+                    listing_graph_area
+                  </div>
+                  <button class="btn btn-secondary mr-2">Compare</button>
+                  <button class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
+            <div class="card listing_item mb-2 p-2 d-flex flex-row">
+              <div class="align-self-center pr-4 pl-3">
+                <img class="university_listing_logo" src={{ asset("assets/img/placeholder.jpeg") }} />
+              </div>
+              <div class="ranking_area pl-2 d-flex flex-fill flex-column">
+                <div class="d-flex mb-2 mt-0">
+                  <h1 class="university_name flex-fill">University of Oxford</h1>
+                  <div class="d-flex justify-content-between">
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <h3 class="university_listing_address flex-fill"><i class="fas fa-map-marker-alt"></i> Oxford OX1 2JD, United Kingdom</h3>
+                  <span class="badge badge-pill badge-secondary align-self-start">North America (1)</span>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="p-1 listing_graph_area flex-fill mr-2">
+                    listing_graph_area
+                  </div>
+                  <button class="btn btn-secondary mr-2">Compare</button>
+                  <button class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
+            <div class="card listing_item mb-2 p-2 d-flex flex-row">
+              <div class="align-self-center pr-4 pl-3">
+                <img class="university_listing_logo" src={{ asset("assets/img/placeholder.jpeg") }} />
+              </div>
+              <div class="ranking_area pl-2 d-flex flex-fill flex-column">
+                <div class="d-flex mb-2 mt-0">
+                  <h1 class="university_name flex-fill">University of Oxford</h1>
+                  <div class="d-flex justify-content-between">
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                    <div class="ranking_factors_value align-self-center p-1">
+                      <p class="factor_value">100</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <h3 class="university_listing_address flex-fill"><i class="fas fa-map-marker-alt"></i> Oxford OX1 2JD, United Kingdom</h3>
+                  <span class="badge badge-pill badge-secondary align-self-start">North America (1)</span>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="p-1 listing_graph_area flex-fill mr-2">
+                    listing_graph_area
+                  </div>
+                  <button class="btn btn-secondary mr-2">Compare</button>
+                  <button class="btn btn-primary">Explore</button>
+                </div>
+              </div>
+            </div>
             <div class="card listing_item mb-2 p-2 d-flex flex-row">
               <div class="align-self-center pr-4 pl-3">
                 <img class="university_listing_logo" src={{ asset("assets/img/placeholder.jpeg") }} />
